@@ -75,7 +75,7 @@ resource "aws_db_instance" "mysql_standalone" {
   storage_encrypted     = false
 
   #ネットワーク周り
-  multi_az               = false
+  multi_az               = true
   availability_zone      = "ap-northeast-1a"
   db_subnet_group_name   = aws_db_subnet_group.mysql_standalone_subnetroup.name
   vpc_security_group_ids = [aws_security_group.db_sg.id]
