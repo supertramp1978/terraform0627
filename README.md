@@ -1,6 +1,6 @@
 # Rails アプリケーションインフラのTerraform によるコード化
 ## 構成図
-![diagram](image/sample.png)
+![diagram](image/sample2.png)
 
 # 特徴
 - マルチAZによる冗長化
